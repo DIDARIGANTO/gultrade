@@ -1,0 +1,239 @@
+/* GULTRADE — фирменные стили поверх UIkit */
+:root {
+  --gt-dark: #004357;
+  --gt-green: #3fac49;
+  --gt-mint: #46d4aa;
+  --gt-light: #f7f8fc;
+  --gt-gray: #8c8f90;
+  --gt-gradient: linear-gradient(40deg, #46d4aa 0, #56dd9a 40%, #72e475 100%);
+}
+
+html, body {
+  font-family: 'Manrope', -apple-system, 'Segoe UI', Arial, sans-serif;
+  color: #5b5d60;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, .uk-h1, .uk-h2, .uk-h3, .uk-h4,
+.uk-heading-small, .uk-heading-medium, .uk-heading-large {
+  font-family: 'Manrope', -apple-system, 'Segoe UI', Arial, sans-serif;
+  color: var(--gt-dark);
+  font-weight: 800;
+}
+
+.uk-navbar-nav > li > a {
+  color: var(--gt-dark);
+  font-weight: 700;
+  text-transform: none;
+  font-size: 15px;
+}
+.uk-navbar-nav > li > a:hover,
+.uk-navbar-nav > li.uk-active > a { color: var(--gt-green); }
+
+.gt-header { background: var(--gt-light); }
+
+/* Кнопки */
+.gt-btn-gradient {
+  background: var(--gt-gradient);
+  color: #fff !important;
+  border-radius: 500px;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 15px;
+  padding: 0 32px;
+  line-height: 48px;
+  border: none;
+  transition: box-shadow .2s, transform .2s;
+}
+.gt-btn-gradient:hover {
+  box-shadow: 0 10px 25px rgba(70, 212, 170, .45);
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+.gt-btn-white {
+  background: #fff;
+  color: var(--gt-dark) !important;
+  border-radius: 500px;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 15px;
+  padding: 0 32px;
+  line-height: 48px;
+  border: 1px solid #e5e9ed;
+  transition: box-shadow .2s;
+}
+.gt-btn-white:hover { box-shadow: 0 10px 25px rgba(0, 67, 87, .12); text-decoration: none; }
+.gt-btn-dark {
+  background: var(--gt-dark);
+  color: #fff !important;
+  border-radius: 500px;
+  font-weight: 700;
+  text-transform: none;
+  padding: 0 32px;
+  line-height: 48px;
+}
+.gt-btn-dark:hover { background: #00374a; text-decoration: none; }
+
+/* Hero */
+.gt-hero {
+  background:
+    radial-gradient(60% 90% at 85% 20%, rgba(114, 228, 117, .25) 0, rgba(114, 228, 117, 0) 70%),
+    radial-gradient(70% 100% at 10% 90%, rgba(70, 212, 170, .30) 0, rgba(70, 212, 170, 0) 70%),
+    linear-gradient(160deg, #dff0ee 0%, #cfe7e4 55%, #d8ede6 100%);
+  position: relative;
+  overflow: hidden;
+}
+.gt-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.08;
+  letter-spacing: -.02em;
+}
+.gt-hero .uk-text-lead { color: #1b5567; font-size: clamp(1.05rem, 2.2vw, 1.4rem); }
+.gt-hero-flower { position: absolute; opacity: .5; pointer-events: none; }
+
+/* Карточки */
+.gt-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 67, 87, .07);
+  transition: transform .25s, box-shadow .25s;
+}
+.gt-card:hover { transform: translateY(-6px); box-shadow: 0 25px 50px rgba(0, 67, 87, .13); }
+.gt-card .uk-card-title { font-size: 1.15rem; font-weight: 800; }
+
+.gt-icon-circle {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  background: var(--gt-gradient);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.gt-icon-soft {
+  width: 64px; height: 64px;
+  border-radius: 18px;
+  background: rgba(70, 212, 170, .14);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gt-green);
+}
+
+.gt-section-light { background: var(--gt-light); }
+.gt-section-dark { background: linear-gradient(-40deg, #05303f, var(--gt-dark)); }
+.gt-section-dark h2, .gt-section-dark h3 { color: #fff; }
+.gt-section-dark p { color: #b8ccd4; }
+
+.gt-eyebrow {
+  color: var(--gt-green);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .8rem;
+}
+
+/* Шаги */
+.gt-step-num {
+  font-size: 3.2rem;
+  font-weight: 800;
+  background: var(--gt-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+}
+
+/* Цифры-счётчики */
+.gt-counter { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; color: var(--gt-dark); }
+
+/* Команда */
+.gt-avatar {
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  background: var(--gt-gradient);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+/* Новости */
+.gt-news-thumb {
+  height: 210px;
+  border-radius: 18px 18px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.gt-news-date { color: var(--gt-gray); font-size: .85rem; font-weight: 600; }
+
+/* Футер */
+.gt-footer { background: var(--gt-light); }
+.gt-footer a { color: #5b5d60; }
+.gt-footer a:hover { color: var(--gt-green); text-decoration: none; }
+.gt-footer-title { color: var(--gt-dark); font-weight: 800; font-size: .95rem; text-transform: uppercase; letter-spacing: .08em; }
+
+/* Партнёры */
+.gt-partner {
+  color: #9aa3ad;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: .04em;
+  opacity: .8;
+  filter: grayscale(1);
+  transition: opacity .2s, filter .2s, color .2s;
+}
+.gt-partner:hover { opacity: 1; filter: none; color: var(--gt-dark); }
+
+/* WhatsApp плавающая кнопка */
+.gt-wa-float {
+  position: fixed;
+  right: 22px; bottom: 22px;
+  z-index: 999;
+  width: 58px; height: 58px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, .5);
+  transition: transform .2s;
+}
+.gt-wa-float:hover { transform: scale(1.08); }
+
+/* Цитаты */
+.gt-quote {
+  border-left: 4px solid var(--gt-mint);
+  border-radius: 0 18px 18px 0;
+  background: #fff;
+}
+
+.uk-offcanvas-bar { background: var(--gt-dark); }
+.uk-offcanvas-bar .uk-nav > li > a { color: #cfe0e6; font-weight: 700; font-size: 1.1rem; }
+.uk-offcanvas-bar .uk-nav > li > a:hover { color: #72e475; }
+
+.uk-label { background: var(--gt-gradient); border-radius: 500px; text-transform: none; }
+
+/* Логотип: знак + словесная часть */
+.gt-logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.gt-logo:hover { text-decoration: none; }
+.gt-wordmark {
+  font-family: 'Manrope', -apple-system, 'Segoe UI', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1.45rem;
+  letter-spacing: -.02em;
+  color: var(--gt-dark);
+  line-height: 1;
+}
+.gt-wordmark em { font-style: normal; color: var(--gt-green); }
+
+/* Фото-фоны */
+.gt-hero--photo { background-size: cover !important; background-position: center; }
+.gt-section-dark--photo { background-size: cover; background-position: center; }
+img.gt-news-thumb { width: 100%; height: 210px; object-fit: cover; display: block; }
