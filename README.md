@@ -13,7 +13,7 @@
 
 ## Контакты (внесены 2026-08-27)
 - Адрес: Астана, пр-т Шәкәрім Құдайбердіұлы, 56, 1 этаж, Z00F2A9 · 2ГИС: 2gis.kz/astana/firm/70000001056285785
-- Телефон: +7 705 406 11 56 · WhatsApp: wa.me/77001837700 (+7 700 183 77 00)
+- Телефоны: +7 705 406 11 56, +7 747 884 37 96 · WhatsApp: wa.me/77001837700 (+7 700 183 77 00)
 - Instagram: https://www.instagram.com/bloom.kaz · YouTube: https://www.youtube.com/@BLOOMKZ
 
 ## SEO / GEO (настроено)
