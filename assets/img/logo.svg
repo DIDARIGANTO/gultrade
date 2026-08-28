@@ -1,15 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="190" height="48" viewBox="0 0 190 48">
   <g transform="translate(2,2) scale(0.44)">
-  <path fill="#2e8540" d="M50 4 C 41 12, 37 25, 39 37 C 41 45, 46 50, 50 51 C 54 50, 59 45, 61 37 C 63 25, 59 12, 50 4 Z"/>
-  <path fill="#4faf5c" stroke="#ffffff" stroke-width="2" d="M24 15 C 13 27, 12 45, 25 57 C 34 54, 40 44, 40 31 C 39 23, 32 17, 24 15 Z"/>
-  <path fill="#4faf5c" stroke="#ffffff" stroke-width="2" d="M76 15 C 87 27, 88 45, 75 57 C 66 54, 60 44, 60 31 C 61 23, 68 17, 76 15 Z"/>
-  <path fill="#2e8540" stroke="#ffffff" stroke-width="2" d="M67 19 C 74 30, 75 46, 65 58 C 57 61, 50 57, 49 49 C 52 37, 59 27, 67 19 Z"/>
-  <path fill="#45a552" stroke="#ffffff" stroke-width="2" d="M55 13 C 45 19, 38 31, 38 44 C 38 54, 43 60, 50 60 C 57 59, 62 50, 62 38 C 62 28, 59 19, 55 13 Z"/>
-  <path fill="#3f9d4a" d="M46.5 58 L53.5 58 L53.5 97 L46.5 97 Z"/>
-  <path fill="#4faf5c" d="M9 62 C 26 57, 43 65, 45 84 C 45 89, 45 94, 44 97 L 9 62 Z"/>
-  <path fill="#2e8540" d="M9 62 C 10 79, 25 94, 44 97 L 9 62 Z"/>
-  <path fill="#4faf5c" d="M91 62 C 74 57, 57 65, 55 84 C 55 89, 55 94, 56 97 L 91 62 Z"/>
-  <path fill="#2e8540" d="M91 62 C 90 79, 75 94, 56 97 L 91 62 Z"/>
+  <!-- задний центральный лепесток (широкий ромб, тёмный) -->
+  <path fill="#2e8540" d="M50 4 C 45 8, 39.5 16, 39 25 C 39 33, 44 40, 50 42.5 C 56 40, 61 33, 61 25 C 60.5 16, 55 8, 50 4 Z"/>
+  <!-- стебель (за бутоном) -->
+  <path fill="#3f9d4a" d="M47.5 52 L52.5 52 L52.5 96 L47.5 96 Z"/>
+  <!-- боковые лепестки, прижатые к чаше -->
+  <path fill="#43a34f" stroke="#ffffff" stroke-width="2" d="M32 10 C 23 16, 20 27, 21.5 35 C 23 45, 31 53, 42 55.5 C 44 46, 44 32, 41.5 24 C 39.5 16, 36 11.5, 32 10 Z"/>
+  <path fill="#43a34f" stroke="#ffffff" stroke-width="2" d="M68 10 C 77 16, 80 27, 78.5 35 C 77 45, 69 53, 58 55.5 C 56 46, 56 32, 58.5 24 C 60.5 16, 64 11.5, 68 10 Z"/>
+  <!-- передний правый (тёмный) -->
+  <path fill="#2e8540" stroke="#ffffff" stroke-width="2" d="M62 16 C 66 22, 68 32, 67 41 C 66 49, 62 54, 56 56 C 50 57, 46 53, 46 47 C 48 34, 54 22, 62 16 Z"/>
+  <!-- передний левый (крупный, светлее) -->
+  <path fill="#4bad57" stroke="#ffffff" stroke-width="2" d="M53 16 C 46 21, 41 30, 40 40 C 39.5 49, 43 56, 50 57 C 56.5 56, 60 50, 60 41 C 60 31, 57.5 22, 53 16 Z"/>
+  <!-- левый лист: светлая и тёмная половины -->
+  <path fill="#43a34f" d="M12 57 C 24 59, 38 66, 45 75 L 45 93 L 12 57 Z"/>
+  <path fill="#2e8540" d="M12 57 C 13 74, 24 90, 45 93 L 12 57 Z"/>
+  <!-- правый лист -->
+  <path fill="#43a34f" d="M88 57 C 76 59, 62 66, 55 75 L 55 93 L 88 57 Z"/>
+  <path fill="#2e8540" d="M88 57 C 87 74, 76 90, 55 93 L 88 57 Z"/>
   </g>
   <text x="52" y="33" font-family="Manrope, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5" fill="#004357">Gul<tspan fill="#3fac49">Trade</tspan></text>
 </svg>
