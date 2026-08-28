@@ -11,6 +11,8 @@
 Instagram: https://www.instagram.com/bloom.kaz
 YouTube: https://www.youtube.com/@BLOOMKZ
 
+Языки сайта: русский (корень), казахский (/kz/), английский (/en/).
+
 ## Страницы
 - [Главная](https://gultrade.kz/): оптовые поставки цветов по Казахстану — как это работает, преимущества
 - [О нас](https://gultrade.kz/about.html): закуп на аукционах Европы, еженедельные поставки, логистика
