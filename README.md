@@ -33,5 +33,10 @@
 6. Логотипы партнёров на главной (сейчас текстовые заглушки)
 7. Реальные фото (герой, новости) — сейчас градиенты и SVG-цветы
 
+## Деплой
+- GitHub (открытый): https://github.com/DIDARIGANTO/gultrade
+- GitHub Pages: https://didariganto.github.io/gultrade/
+- Обновление сайта: закоммитить изменения и `git push` — Pages пересоберётся сам
+
 ## Локальный просмотр
 python3 -m http.server 8765
