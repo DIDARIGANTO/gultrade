@@ -25,13 +25,14 @@
 - robots.txt + sitemap.xml + llms.txt (для ИИ-поисковиков)
 
 ## ЗАМЕНИТЬ ПЕРЕД ЗАПУСКОМ (поиск по «TODO»)
-1. ДОМЕН: везде прописан https://gultrade.kz — если домен другой, заменить
-   в canonical/OG/JSON-LD (все *.html), robots.txt, sitemap.xml, llms.txt
-2. E-mail: заглушка info@gultrade.kz
+1. E-mail: заглушка info@gul-trade.com — заменить на реальный ящик
 4. Имена и фото сотрудников (team.html) — сейчас «Имя Фамилия»
 5. Цифры «10+ лет / 100+ партнёров / 10 000+ заказов» (team.html)
 6. Логотипы партнёров на главной (сейчас текстовые заглушки)
 7. Реальные фото (герой, новости) — сейчас градиенты и SVG-цветы
+
+## Домен
+- Куплен: https://gul-trade.com (2026-08-29) — прописан во всех canonical/OG/JSON-LD/sitemap
 
 ## Деплой
 - GitHub (открытый): https://github.com/DIDARIGANTO/gultrade

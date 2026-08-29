@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gultrade.kz/sitemap.xml
+Sitemap: https://gul-trade.com/sitemap.xml
