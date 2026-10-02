@@ -677,7 +677,6 @@ iframe { border-radius: 24px; }
     "a a d d"
     "e f d d";
   gap: 18px;
-  counter-reset: tile;
 }
 .gt-tile {
   position: relative;
@@ -685,7 +684,6 @@ iframe { border-radius: 24px; }
   border-radius: 24px;
   overflow: hidden;
   isolation: isolate;
-  counter-increment: tile;
   background: var(--gt-sand);
 }
 .gt-tile:nth-child(1) { grid-area: a; }
@@ -712,9 +710,6 @@ iframe { border-radius: 24px; }
   position: absolute;
   left: 20px; right: 20px; bottom: 16px;
   z-index: 2;
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
   color: #fff;
   font-family: var(--gt-serif);
   font-weight: 600;
@@ -722,14 +717,6 @@ iframe { border-radius: 24px; }
   line-height: 1.1;
 }
 .gt-tile:nth-child(1) figcaption, .gt-tile:nth-child(4) figcaption { font-size: 2.2rem; left: 26px; bottom: 22px; }
-.gt-tile figcaption::before {
-  content: "0" counter(tile);
-  font-family: var(--gt-sans);
-  font-weight: 800;
-  font-size: .68rem;
-  letter-spacing: .14em;
-  color: var(--gt-lime);
-}
 
 /* ----- Фото-лента («О нас») ----- */
 .gt-photo-strip {
